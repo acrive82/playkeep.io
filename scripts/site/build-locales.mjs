@@ -19,6 +19,8 @@ const languages = [
 const shared = {
   brand: "playkeep.io",
   repo: "https://github.com/acrive82/playkeep.io",
+  starsBadge:
+    "https://img.shields.io/github/stars/acrive82/playkeep.io?style=for-the-badge&logo=github&label=Stars&color=5df2a2&labelColor=081411",
   heroImage: "/assets/playkeep-hero.png"
 };
 
@@ -670,6 +672,9 @@ function render(locale, copy) {
               <a class="button primary" href="${shared.repo}">${escapeHtml(copy.ctaPrimary)}</a>
               <a class="button secondary" href="#demo">${escapeHtml(copy.ctaSecondary)}</a>
             </div>
+            <a class="stars-badge" href="${shared.repo}/stargazers" aria-label="GitHub stars for Playkeep">
+              <img src="${shared.starsBadge}" alt="GitHub stars">
+            </a>
           </div>
         </section>
 
@@ -812,4 +817,3 @@ for (const [locale, , path] of languages) {
 await writeFile(join(docs, "sitemap.xml"), renderSitemap(), "utf8");
 
 console.log(`Generated ${languages.length} localized pages.`);
-

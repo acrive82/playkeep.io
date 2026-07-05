@@ -236,6 +236,20 @@ h1 {
   margin-top: 34px;
 }
 
+.stars-badge {
+  display: inline-flex;
+  margin-top: 18px;
+  min-height: 28px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.stars-badge img {
+  display: block;
+  height: 28px;
+  width: auto;
+}
+
 .button {
   min-height: 46px;
   display: inline-flex;
