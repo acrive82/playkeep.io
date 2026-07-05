@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://playkeep.io/sitemap.xml
+
