@@ -8,6 +8,9 @@
   <a href="#quick-start">Quick Start</a> ·
   <a href="#docker-demo">Docker Demo</a> ·
   <a href="#why-now">Why Now</a> ·
+  <a href="#who-it-serves">Who It Serves</a> ·
+  <a href="#the-problem-it-solves">Problem</a> ·
+  <a href="#benefits">Benefits</a> ·
   <a href="#manifesto">Manifesto</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#security-model">Security</a>
@@ -32,7 +35,10 @@ Playkeep is for players first.
 
 Players are pushing back against a future where buying a game can become a temporary permission. Physical media is being phased out, stores and launchers are becoming the only practical access path, and entire communities are asking what rights remain when a purchased game can be switched off.
 
-That is the same concern behind movements such as Stop Killing Games: companies should not be forced to operate live services forever, but a sold game should not become completely unusable without a reasonable preservation path.
+Recent signals are clear:
+
+- On July 3, 2026, Everyeye reported a player petition against Sony PlayStation's move away from physical discs, with 36,315 signatures already collected at publication time.
+- The Stop Killing Games debate frames the broader consumer-rights problem: publishers should not have to run live services forever, but a sold game should not be made completely unusable without a reasonable preservation path when official support ends.
 
 Playkeep is the technical bridge we want publishers to adopt:
 
@@ -47,6 +53,50 @@ The ambition is for Playkeep to become an open distribution standard across publ
 No single console vendor, store, or publisher database should be able to make a valid license disappear from the player's wallet.
 
 This is not a speculative NFT project. It is an attempt to make the legitimate path more durable, more transparent, and more attractive than piracy.
+
+## Who It Serves
+
+Playkeep is designed for the whole game distribution chain:
+
+- **Players** who want durable access to the games they bought, even if a launcher, store, or publisher service changes later.
+- **Publishers** who want to support preservation and ownership portability without publishing clear game packages or giving up anti-piracy controls.
+- **Console makers, PC launchers, handheld platforms, and storefronts** that want a shared way to verify game ownership across compatible ecosystems.
+- **Preservation communities** that need encrypted, mirrorable packages and verifiable manifests instead of fragile abandonware workflows.
+- **Retail and resale ecosystems** that could eventually build legitimate secondary-market experiences around transferable licenses.
+
+## The Problem It Solves
+
+Today, digital game ownership is often trapped inside private databases. If the account system, launcher, store backend, download server, or license service disappears, the player's practical access can disappear with it.
+
+Playkeep separates three things that are usually fused together:
+
+- **The game bytes**: encrypted packages can be hosted on IPFS, Filecoin, publisher CDNs, platform caches, or community mirrors.
+- **The ownership proof**: the wallet-held license is independent from a single private store database.
+- **The access flow**: compatible platforms verify wallet ownership, request wrapped keys, decrypt locally, and install verified content.
+
+The goal is not to remove publishers from distribution. The goal is to give publishers and platforms a standard way to distribute games while making player ownership portable and resilient.
+
+## Benefits
+
+For players:
+
+- one wallet address can represent a library across compatible consoles, launchers, stores, and devices;
+- purchased games remain discoverable and verifiable even if a specific storefront goes away;
+- local installs can be verified against open manifests instead of opaque launcher state;
+- future resale, recovery, and inheritance flows become technically possible.
+
+For publishers:
+
+- public storage never exposes useful cleartext game packages;
+- token-gated keys preserve authorization before install;
+- cache servers can improve download speed without becoming the only source of truth;
+- open verification can build player trust without abandoning anti-piracy strategy.
+
+For platforms:
+
+- Playkeep can become a shared entitlement layer instead of another isolated launcher database;
+- a console or storefront can onboard a player by verifying their wallet and reading compatible licenses;
+- platforms can compete on experience, speed, curation, and services without holding the player's library hostage.
 
 Context:
 
