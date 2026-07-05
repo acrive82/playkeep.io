@@ -598,8 +598,8 @@ function escapeHtml(value) {
 function languageLinks(current) {
   return languages
     .map(([code, name, path]) => {
-      const active = code === current ? ' aria-current="page"' : "";
-      return `<a href="${path}"${active}>${escapeHtml(name)}</a>`;
+      const active = code === current ? " selected" : "";
+      return `<option value="${code}" data-path="${path}"${active}>${escapeHtml(name)}</option>`;
     })
     .join("");
 }
@@ -637,6 +637,7 @@ function render(locale, copy) {
     <meta name="theme-color" content="#050807">
     <link rel="preload" href="${shared.heroImage}" as="image">
     <link rel="stylesheet" href="/assets/site.css">
+    <script src="/assets/site.js" defer></script>
   </head>
   <body>
     <div class="page">
@@ -653,8 +654,11 @@ function render(locale, copy) {
             <a href="#manifesto">${escapeHtml(copy.nav[3])}</a>
             <a class="github-link" href="${shared.repo}">${escapeHtml(copy.nav[4])}</a>
           </div>
-          <div class="language-switcher" aria-label="${escapeHtml(copy.ariaLang)}">
-            ${languageLinks(locale)}
+          <div class="language-picker">
+            <label class="sr-only" for="language-select">${escapeHtml(copy.ariaLang)}</label>
+            <select id="language-select" class="language-select" name="language" data-current-lang="${locale}">
+              ${languageLinks(locale)}
+            </select>
           </div>
         </div>
       </nav>
@@ -672,9 +676,6 @@ function render(locale, copy) {
               <a class="button primary" href="${shared.repo}">${escapeHtml(copy.ctaPrimary)}</a>
               <a class="button secondary" href="#demo">${escapeHtml(copy.ctaSecondary)}</a>
             </div>
-            <a class="stars-badge" href="${shared.repo}/stargazers" aria-label="GitHub stars for Playkeep">
-              <img src="${shared.starsBadge}" alt="GitHub stars">
-            </a>
           </div>
         </section>
 
@@ -777,6 +778,9 @@ Hello PlayKeep.io</code></pre>
         <div class="inner">
           <span>${escapeHtml(copy.footerA)}</span>
           <span>${escapeHtml(copy.footerB)}</span>
+          <a class="stars-badge" href="${shared.repo}" aria-label="GitHub repository for Playkeep">
+            <img src="${shared.starsBadge}" alt="GitHub stars">
+          </a>
         </div>
       </footer>
     </div>

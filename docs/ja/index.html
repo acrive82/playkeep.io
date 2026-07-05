@@ -22,6 +22,7 @@
     <meta name="theme-color" content="#050807">
     <link rel="preload" href="/assets/playkeep-hero.png" as="image">
     <link rel="stylesheet" href="/assets/site.css">
+    <script src="/assets/site.js" defer></script>
   </head>
   <body>
     <div class="page">
@@ -38,8 +39,11 @@
             <a href="#manifesto">マニフェスト</a>
             <a class="github-link" href="https://github.com/acrive82/playkeep.io">GitHub</a>
           </div>
-          <div class="language-switcher" aria-label="言語">
-            <a href="/">English</a><a href="/it/">Italiano</a><a href="/fr/">Français</a><a href="/de/">Deutsch</a><a href="/es/">Español</a><a href="/ru/">Русский</a><a href="/zh/">中文</a><a href="/ja/" aria-current="page">日本語</a>
+          <div class="language-picker">
+            <label class="sr-only" for="language-select">言語</label>
+            <select id="language-select" class="language-select" name="language" data-current-lang="ja">
+              <option value="en" data-path="/">English</option><option value="it" data-path="/it/">Italiano</option><option value="fr" data-path="/fr/">Français</option><option value="de" data-path="/de/">Deutsch</option><option value="es" data-path="/es/">Español</option><option value="ru" data-path="/ru/">Русский</option><option value="zh" data-path="/zh/">中文</option><option value="ja" data-path="/ja/" selected>日本語</option>
+            </select>
           </div>
         </div>
       </nav>
@@ -57,9 +61,6 @@
               <a class="button primary" href="https://github.com/acrive82/playkeep.io">GitHub で見る</a>
               <a class="button secondary" href="#demo">デモを実行</a>
             </div>
-            <a class="stars-badge" href="https://github.com/acrive82/playkeep.io/stargazers" aria-label="GitHub stars for Playkeep">
-              <img src="https://img.shields.io/github/stars/acrive82/playkeep.io?style=for-the-badge&logo=github&label=Stars&color=5df2a2&labelColor=081411" alt="GitHub stars">
-            </a>
           </div>
         </section>
 
@@ -181,6 +182,9 @@ Hello PlayKeep.io</code></pre>
         <div class="inner">
           <span>Playkeep は MIT ライセンスです。</span>
           <span>ライセンスを所有する。バイトを複製する。ゲームを残す。</span>
+          <a class="stars-badge" href="https://github.com/acrive82/playkeep.io" aria-label="GitHub repository for Playkeep">
+            <img src="https://img.shields.io/github/stars/acrive82/playkeep.io?style=for-the-badge&logo=github&label=Stars&color=5df2a2&labelColor=081411" alt="GitHub stars">
+          </a>
         </div>
       </footer>
     </div>
