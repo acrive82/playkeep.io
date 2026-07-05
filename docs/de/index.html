@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playkeep | Souveränes digitales Eigentum an Videospielen</title>
+    <meta name="description" content="Playkeep ist ein offener Protokollprototyp für verschlüsselte Spieleverteilung, token-gesteuerten Zugriff und resilientes digitales Eigentum.">
+    <link rel="canonical" href="https://playkeep.io/de/">
+    <link rel="alternate" hreflang="en" href="https://playkeep.io/">
+    <link rel="alternate" hreflang="it" href="https://playkeep.io/it/">
+    <link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/">
+    <link rel="alternate" hreflang="de" href="https://playkeep.io/de/">
+    <link rel="alternate" hreflang="es" href="https://playkeep.io/es/">
+    <link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/">
+    <link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/">
+    <link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://playkeep.io/">
+    <meta property="og:title" content="Playkeep">
+    <meta property="og:description" content="Besitze die Lizenz. Spiegele die Bytes. Behalte das Spiel.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/playkeep-hero.png">
+    <meta name="theme-color" content="#050807">
+    <link rel="preload" href="/assets/playkeep-hero.png" as="image">
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <div class="page">
+      <nav class="nav" aria-label="Hauptnavigation">
+        <div class="nav-inner">
+          <a class="brand" href="#top" aria-label="Playkeep Startseite">
+            <span class="mark" aria-hidden="true"></span>
+            <span>playkeep.io</span>
+          </a>
+          <div class="nav-links">
+            <a href="#protocol">Protokoll</a>
+            <a href="#flow">Ablauf</a>
+            <a href="#demo">Demo</a>
+            <a href="#manifesto">Manifest</a>
+            <a class="github-link" href="https://github.com/acrive82/playkeep.io">GitHub</a>
+          </div>
+          <div class="language-switcher" aria-label="Sprache">
+            <a href="/">English</a><a href="/it/">Italiano</a><a href="/fr/">Français</a><a href="/de/" aria-current="page">Deutsch</a><a href="/es/">Español</a><a href="/ru/">Русский</a><a href="/zh/">中文</a><a href="/ja/">日本語</a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-media" aria-hidden="true">
+            <img src="/assets/playkeep-hero.png" alt="">
+          </div>
+          <div class="hero-content">
+            <p class="eyebrow">Offener Protokollprototyp</p>
+            <h1 id="hero-title">Besitze die Lizenz. Spiegele die Bytes. Behalte das Spiel.</h1>
+            <p class="hero-copy">Playkeep trennt Spieleigentum von Publisher-Servern durch verschlüsselte Pakete, token-gesteuerte Schlüsselfreigabe und resiliente, IPFS-bereite Speicherung.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://github.com/acrive82/playkeep.io">Auf GitHub ansehen</a>
+              <a class="button secondary" href="#demo">Demo starten</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="protocol">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">Was Playkeep macht</p>
+              <h2>Eine Zugriffsschicht, die Erhaltung an erste Stelle setzt.</h2>
+              <p class="lead">Das Spielpaket kann überall liegen. Das Zugriffsrecht wird über eine offene Entitlement-Schicht geprüft, nicht über die private Datenbank eines Launchers.</p>
+            </div>
+            <div class="grid">
+              <article class="feature">
+                <h3>Verschlüsselte öffentliche Bytes</h3>
+                <p>Publisher versiegeln Builds, bevor sie diese auf IPFS, Filecoin, CDNs oder Community-Mirrors veröffentlichen. Öffentliche Speicherung legt nie nutzbare Klartextpakete offen.</p>
+              </article>
+              <article class="feature">
+                <h3>On-chain Eigentum</h3>
+                <p>ERC-1155-Lizenzen verfolgen Zugriff und Übertragbarkeit. Der Prototyp zielt auf EVM L2 für niedrige Gebühren und breite Wallet-Werkzeuge.</p>
+              </article>
+              <article class="feature">
+                <h3>Token-gesteuerte Schlüssel</h3>
+                <p>Der Gatekeeper prüft Wallet-Signaturen und Tokenbesitz und verpackt dann den Titelschlüssel für den ephemeren Geräteschlüssel.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt" id="flow">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">Der Ablauf</p>
+              <h2>Kein Spielpaket wird im Klartext veröffentlicht.</h2>
+            </div>
+            <div class="flow">
+              <div class="step">
+                <strong>01 Publisher versiegelt</strong>
+                <p>Der Build wird archiviert, gehasht und mit AES-256-GCM verschlüsselt.</p>
+              </div>
+              <div class="step">
+                <strong>02 Speicher spiegelt</strong>
+                <p>Das verschlüsselte Paket kann sicher gepinnt, gecacht und weiterverteilt werden.</p>
+              </div>
+              <div class="step">
+                <strong>03 Spieler beweist</strong>
+                <p>Die Wallet signiert eine kurzlebige Challenge, die an den Geräteschlüssel gebunden ist.</p>
+              </div>
+              <div class="step">
+                <strong>04 Client installiert</strong>
+                <p>Das Paket wird lokal entschlüsselt und gegen die Manifest-Hashes geprüft.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="demo">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">Demo</p>
+              <h2>Die komplette lokale Geschichte mit einem Befehl starten.</h2>
+              <p class="lead">Die Docker-Demo erzeugt ein kleines Spiel mit einer einzigen Datei, schützt es per Wallet-Besitz, entschlüsselt es und verifiziert den installierten Inhalt.</p>
+            </div>
+            <div class="terminal" aria-label="Demo-Befehl im Terminal">
+              <div class="terminal-top" aria-hidden="true">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <pre><code>docker compose up --build --abort-on-container-exit demo-install
+
+# erwartete Ausgabe
+Playkeep demo install verified
+Hello PlayKeep.io</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt" id="manifesto">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">Manifest</p>
+              <h2>Digitales Eigentum sollte nicht mit einem Launcher verschwinden.</h2>
+              <p class="lead">Spiele sind Kultur, Erinnerung, Handwerk und Identität. Zugriff sollte dauerhaft, prüfbar, wiederherstellbar und auf offenen Protokollen gebaut sein.</p>
+            </div>
+            <div class="principles">
+              <div class="principle">Ein Spiel zu kaufen sollte dauerhaften Zugriff bedeuten.</div>
+              <div class="principle">Erhaltung gehört vom ersten Tag an in die Distribution.</div>
+              <div class="principle">Publisher verdienen Schutz vor Piraterie.</div>
+              <div class="principle">Spieler verdienen Souveränität.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">Mehr lesen</p>
+              <h2>Offen gebaut.</h2>
+              <p class="lead">Beginne mit Architektur, Teststrategie und Threat Model. Dann forke, auditiere und hilf, den ehrlichen Weg besser als den Piratenweg zu machen.</p>
+            </div>
+            <div class="grid">
+              <a class="feature" href="/ARCHITECTURE.md">
+                <h3>Architektur</h3>
+                <p>Schichten für Eigentum, Speicherung, Gatekeeping und Erhaltung.</p>
+              </a>
+              <a class="feature" href="/TESTING.md">
+                <h3>Tests</h3>
+                <p>Grenzen zwischen Unit, Integration, E2E und Docker-Demo.</p>
+              </a>
+              <a class="feature" href="/THREAT_MODEL.md">
+                <h3>Threat Model</h3>
+                <p>Was Playkeep verhindert und was kein DRM ehrlich versprechen kann.</p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="inner">
+          <span>Playkeep ist MIT-lizenziert.</span>
+          <span>Besitze die Lizenz. Spiegele die Bytes. Behalte das Spiel.</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

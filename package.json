@@ -7,6 +7,7 @@
   "packageManager": "pnpm@11.7.0",
   "scripts": {
     "build": "pnpm -r build",
+    "build:site": "node scripts/site/build-locales.mjs",
     "demo:prepare": "tsx scripts/demo/prepare.ts",
     "demo:install": "tsx scripts/demo/install.ts",
     "demo:e2e": "pnpm test:e2e",

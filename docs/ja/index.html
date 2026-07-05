@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playkeep | ゲームの主権的デジタル所有権</title>
+    <meta name="description" content="Playkeep は、暗号化されたゲーム配布、トークンによるアクセス制御、回復力のあるデジタル所有権のためのオープンプロトコル試作です。">
+    <link rel="canonical" href="https://playkeep.io/ja/">
+    <link rel="alternate" hreflang="en" href="https://playkeep.io/">
+    <link rel="alternate" hreflang="it" href="https://playkeep.io/it/">
+    <link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/">
+    <link rel="alternate" hreflang="de" href="https://playkeep.io/de/">
+    <link rel="alternate" hreflang="es" href="https://playkeep.io/es/">
+    <link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/">
+    <link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/">
+    <link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://playkeep.io/">
+    <meta property="og:title" content="Playkeep">
+    <meta property="og:description" content="ライセンスを所有する。バイトを複製する。ゲームを残す。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/playkeep-hero.png">
+    <meta name="theme-color" content="#050807">
+    <link rel="preload" href="/assets/playkeep-hero.png" as="image">
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <div class="page">
+      <nav class="nav" aria-label="メインナビゲーション">
+        <div class="nav-inner">
+          <a class="brand" href="#top" aria-label="Playkeep ホーム">
+            <span class="mark" aria-hidden="true"></span>
+            <span>playkeep.io</span>
+          </a>
+          <div class="nav-links">
+            <a href="#protocol">プロトコル</a>
+            <a href="#flow">フロー</a>
+            <a href="#demo">デモ</a>
+            <a href="#manifesto">マニフェスト</a>
+            <a class="github-link" href="https://github.com/acrive82/playkeep.io">GitHub</a>
+          </div>
+          <div class="language-switcher" aria-label="言語">
+            <a href="/">English</a><a href="/it/">Italiano</a><a href="/fr/">Français</a><a href="/de/">Deutsch</a><a href="/es/">Español</a><a href="/ru/">Русский</a><a href="/zh/">中文</a><a href="/ja/" aria-current="page">日本語</a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-media" aria-hidden="true">
+            <img src="/assets/playkeep-hero.png" alt="">
+          </div>
+          <div class="hero-content">
+            <p class="eyebrow">オープンプロトコル試作</p>
+            <h1 id="hero-title">ライセンスを所有する。バイトを複製する。ゲームを残す。</h1>
+            <p class="hero-copy">Playkeep は、暗号化パッケージ、トークンに基づく鍵配布、IPFS 対応の回復力あるストレージによって、ゲーム所有権をパブリッシャーのサーバーから切り離します。</p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://github.com/acrive82/playkeep.io">GitHub で見る</a>
+              <a class="button secondary" href="#demo">デモを実行</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="protocol">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">Playkeep の役割</p>
+              <h2>保存を第一に考えたデジタルゲームのアクセス層。</h2>
+              <p class="lead">ゲームパッケージはどこに置いても構いません。アクセス権は、特定ランチャーの私有データベースではなく、オープンな entitlement 層で検証されます。</p>
+            </div>
+            <div class="grid">
+              <article class="feature">
+                <h3>暗号化された公開バイト</h3>
+                <p>パブリッシャーは IPFS、Filecoin、CDN、コミュニティミラーへ公開する前にビルドを封印します。公開ストレージに有用な平文パッケージは出ません。</p>
+              </article>
+              <article class="feature">
+                <h3>オンチェーン所有権</h3>
+                <p>ERC-1155 ライセンスがアクセスと譲渡可能性を追跡します。試作は低手数料と広いウォレット対応のため EVM L2 を想定しています。</p>
+              </article>
+              <article class="feature">
+                <h3>トークンゲート鍵</h3>
+                <p>Gatekeeper はウォレット署名とトークン所有を検証し、タイトル鍵をプレイヤー端末の一時鍵にラップします。</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt" id="flow">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">フロー</p>
+              <h2>平文のゲームパッケージは公開されません。</h2>
+            </div>
+            <div class="flow">
+              <div class="step">
+                <strong>01 パブリッシャーが封印</strong>
+                <p>ビルドはアーカイブ、ハッシュ化され、AES-256-GCM で暗号化されます。</p>
+              </div>
+              <div class="step">
+                <strong>02 ストレージが複製</strong>
+                <p>暗号化パッケージは安全にピン留め、キャッシュ、再配布できます。</p>
+              </div>
+              <div class="step">
+                <strong>03 プレイヤーが証明</strong>
+                <p>ウォレットが端末鍵に紐づく短時間の challenge に署名します。</p>
+              </div>
+              <div class="step">
+                <strong>04 クライアントがインストール</strong>
+                <p>パッケージはローカルで復号され、manifest のハッシュで検証されます。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="demo">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">デモ</p>
+              <h2>完全なローカルフローを 1 コマンドで実行。</h2>
+              <p class="lead">Docker デモは 1 ファイルだけの小さなゲームを作成し、ウォレット所有でゲートし、復号してインストール内容を検証します。</p>
+            </div>
+            <div class="terminal" aria-label="ターミナルのデモコマンド">
+              <div class="terminal-top" aria-hidden="true">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <pre><code>docker compose up --build --abort-on-container-exit demo-install
+
+# 期待される出力
+Playkeep demo install verified
+Hello PlayKeep.io</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt" id="manifesto">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">マニフェスト</p>
+              <h2>デジタル所有権はランチャーと共に消えるべきではありません。</h2>
+              <p class="lead">ゲームは文化、記憶、技術、アイデンティティです。アクセスは永続的で、検証可能で、復旧可能で、オープンプロトコルの上にあるべきです。</p>
+            </div>
+            <div class="principles">
+              <div class="principle">ゲームの購入は永続的なアクセスを意味するべきです。</div>
+              <div class="principle">保存は配布の初日から設計されるべきです。</div>
+              <div class="principle">パブリッシャーには海賊版対策が必要です。</div>
+              <div class="principle">プレイヤーには主権が必要です。</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">さらに読む</p>
+              <h2>オープンに構築中。</h2>
+              <p class="lead">まずはアーキテクチャ、テスト戦略、脅威モデルから。次に fork し、監査し、正規の道を海賊版より良いものにしてください。</p>
+            </div>
+            <div class="grid">
+              <a class="feature" href="/ARCHITECTURE.md">
+                <h3>アーキテクチャ</h3>
+                <p>所有権、ストレージ、gatekeeping、保存の各レイヤー。</p>
+              </a>
+              <a class="feature" href="/TESTING.md">
+                <h3>テスト</h3>
+                <p>Unit、integration、e2e、Docker デモの境界。</p>
+              </a>
+              <a class="feature" href="/THREAT_MODEL.md">
+                <h3>脅威モデル</h3>
+                <p>Playkeep が防げるもの、そしてどんな DRM も正直には約束できないもの。</p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="inner">
+          <span>Playkeep は MIT ライセンスです。</span>
+          <span>ライセンスを所有する。バイトを複製する。ゲームを残す。</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

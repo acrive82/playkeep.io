@@ -59,7 +59,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 22px;
+  gap: 18px;
 }
 
 .brand {
@@ -115,6 +115,34 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 8px;
   color: var(--ink);
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.language-switcher a {
+  min-height: 30px;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.language-switcher a:hover,
+.language-switcher a[aria-current="page"] {
+  color: var(--ink);
+  border-color: rgba(93, 242, 162, 0.48);
+  background: rgba(93, 242, 162, 0.1);
 }
 
 .hero {
@@ -419,6 +447,11 @@ code {
     padding-bottom: 3px;
   }
 
+  .language-switcher {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
   .hero {
     min-height: auto;
   }
@@ -459,5 +492,8 @@ code {
   .button {
     width: 100%;
   }
-}
 
+  .language-switcher a {
+    font-size: 11px;
+  }
+}

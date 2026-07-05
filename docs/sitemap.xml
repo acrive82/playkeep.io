@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://playkeep.io/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/it/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/fr/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/de/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/es/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/ru/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/zh/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
+  </url>
+  <url>
+    <loc>https://playkeep.io/ja/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://playkeep.io/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://playkeep.io/it/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://playkeep.io/de/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://playkeep.io/es/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/" />
+      <xhtml:link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/" />
+      <xhtml:link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://playkeep.io/" />
   </url>
 </urlset>
-

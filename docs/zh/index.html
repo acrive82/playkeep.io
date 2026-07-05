@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playkeep | 主权式数字游戏所有权</title>
+    <meta name="description" content="Playkeep 是一个开放协议原型，用于加密游戏分发、基于代币的访问控制和更有韧性的数字所有权。">
+    <link rel="canonical" href="https://playkeep.io/zh/">
+    <link rel="alternate" hreflang="en" href="https://playkeep.io/">
+    <link rel="alternate" hreflang="it" href="https://playkeep.io/it/">
+    <link rel="alternate" hreflang="fr" href="https://playkeep.io/fr/">
+    <link rel="alternate" hreflang="de" href="https://playkeep.io/de/">
+    <link rel="alternate" hreflang="es" href="https://playkeep.io/es/">
+    <link rel="alternate" hreflang="ru" href="https://playkeep.io/ru/">
+    <link rel="alternate" hreflang="zh" href="https://playkeep.io/zh/">
+    <link rel="alternate" hreflang="ja" href="https://playkeep.io/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://playkeep.io/">
+    <meta property="og:title" content="Playkeep">
+    <meta property="og:description" content="拥有许可证。镜像字节。保留游戏。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/playkeep-hero.png">
+    <meta name="theme-color" content="#050807">
+    <link rel="preload" href="/assets/playkeep-hero.png" as="image">
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <div class="page">
+      <nav class="nav" aria-label="主导航">
+        <div class="nav-inner">
+          <a class="brand" href="#top" aria-label="Playkeep 首页">
+            <span class="mark" aria-hidden="true"></span>
+            <span>playkeep.io</span>
+          </a>
+          <div class="nav-links">
+            <a href="#protocol">协议</a>
+            <a href="#flow">流程</a>
+            <a href="#demo">演示</a>
+            <a href="#manifesto">宣言</a>
+            <a class="github-link" href="https://github.com/acrive82/playkeep.io">GitHub</a>
+          </div>
+          <div class="language-switcher" aria-label="语言">
+            <a href="/">English</a><a href="/it/">Italiano</a><a href="/fr/">Français</a><a href="/de/">Deutsch</a><a href="/es/">Español</a><a href="/ru/">Русский</a><a href="/zh/" aria-current="page">中文</a><a href="/ja/">日本語</a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-media" aria-hidden="true">
+            <img src="/assets/playkeep-hero.png" alt="">
+          </div>
+          <div class="hero-content">
+            <p class="eyebrow">开放协议原型</p>
+            <h1 id="hero-title">拥有许可证。镜像字节。保留游戏。</h1>
+            <p class="hero-copy">Playkeep 通过加密包、基于代币的密钥释放，以及可接入 IPFS 的韧性存储，将游戏所有权从发行商服务器中分离出来。</p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://github.com/acrive82/playkeep.io">在 GitHub 查看</a>
+              <a class="button secondary" href="#demo">运行演示</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="protocol">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">Playkeep 做什么</p>
+              <h2>为数字游戏保存而设计的访问层。</h2>
+              <p class="lead">游戏包可以存放在任何地方。访问权由开放的 entitlement 层验证，而不是由某个私有启动器数据库决定。</p>
+            </div>
+            <div class="grid">
+              <article class="feature">
+                <h3>加密的公开字节</h3>
+                <p>发行商在发布到 IPFS、Filecoin、CDN 或社区镜像前先封装构建产物。公开存储永远不会暴露可用的明文包。</p>
+              </article>
+              <article class="feature">
+                <h3>链上所有权</h3>
+                <p>ERC-1155 许可证追踪访问权与可转让性。该原型面向 EVM L2，以获得低费用和成熟的钱包工具。</p>
+              </article>
+              <article class="feature">
+                <h3>代币门控密钥</h3>
+                <p>Gatekeeper 验证钱包签名和代币所有权，然后把游戏密钥包装给玩家设备的临时公钥。</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt" id="flow">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">流程</p>
+              <h2>不会发布明文游戏包。</h2>
+            </div>
+            <div class="flow">
+              <div class="step">
+                <strong>01 发行商封装</strong>
+                <p>构建产物被归档、哈希，并用 AES-256-GCM 加密。</p>
+              </div>
+              <div class="step">
+                <strong>02 存储镜像</strong>
+                <p>加密包可以安全地固定、缓存和再分发。</p>
+              </div>
+              <div class="step">
+                <strong>03 玩家证明</strong>
+                <p>钱包签署一个与设备密钥绑定的短期 challenge。</p>
+              </div>
+              <div class="step">
+                <strong>04 客户端安装</strong>
+                <p>包在本地解密，并根据 manifest 哈希进行验证。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="demo">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">演示</p>
+              <h2>用一个命令运行完整本地流程。</h2>
+              <p class="lead">Docker 演示会创建一个只含单文件的小游戏，通过钱包所有权控制访问，解密并验证已安装内容。</p>
+            </div>
+            <div class="terminal" aria-label="终端演示命令">
+              <div class="terminal-top" aria-hidden="true">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <pre><code>docker compose up --build --abort-on-container-exit demo-install
+
+# 预期输出
+Playkeep demo install verified
+Hello PlayKeep.io</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt" id="manifesto">
+          <div class="inner">
+            <div class="section-head">
+              <p class="section-kicker">宣言</p>
+              <h2>数字所有权不应随着启动器消失。</h2>
+              <p class="lead">游戏是文化、记忆、工艺和身份。访问权应该持久、可检查、可恢复，并建立在开放协议之上。</p>
+            </div>
+            <div class="principles">
+              <div class="principle">购买游戏应意味着持久访问。</div>
+              <div class="principle">保存能力应从分发的第一天就被设计进去。</div>
+              <div class="principle">发行商值得拥有反盗版能力。</div>
+              <div class="principle">玩家也值得拥有主权。</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">继续了解</p>
+              <h2>开放构建。</h2>
+              <p class="lead">从架构、测试策略和威胁模型开始。然后 fork、审计，并帮助让诚实路径比盗版路径更好。</p>
+            </div>
+            <div class="grid">
+              <a class="feature" href="/ARCHITECTURE.md">
+                <h3>架构</h3>
+                <p>所有权、存储、gatekeeping 和保存层。</p>
+              </a>
+              <a class="feature" href="/TESTING.md">
+                <h3>测试</h3>
+                <p>Unit、integration、e2e 和 Docker 演示的边界。</p>
+              </a>
+              <a class="feature" href="/THREAT_MODEL.md">
+                <h3>威胁模型</h3>
+                <p>Playkeep 能防止什么，以及任何 DRM 都无法诚实承诺什么。</p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="inner">
+          <span>Playkeep 使用 MIT 许可证。</span>
+          <span>拥有许可证。镜像字节。保留游戏。</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
