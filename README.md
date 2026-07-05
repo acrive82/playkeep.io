@@ -96,6 +96,9 @@ pnpm test:e2e
 
 See [docs/TESTING.md](docs/TESTING.md) for the suite boundaries.
 
+The public website is served from [docs/](docs/) through GitHub Pages. DNS setup notes live in
+[docs/DNS.md](docs/DNS.md).
+
 Create an encrypted package:
 
 ```bash
