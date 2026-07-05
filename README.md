@@ -42,6 +42,10 @@ Playkeep is the technical bridge we want publishers to adopt:
 - publisher cache servers for speed, without making them the only source of truth;
 - a path toward durable installs, resale, recovery, and preservation.
 
+The ambition is for Playkeep to become an open distribution standard across publishers and platforms. A player should be able to use the same wallet address on a console, PC launcher, handheld, cloud client, or future storefront that implements the protocol. The platform verifies the wallet, sees the licenses, downloads the encrypted packages from IPFS/cache, requests the keys through the entitlement flow, and installs the games the player owns.
+
+No single console vendor, store, or publisher database should be able to make a valid license disappear from the player's wallet.
+
 This is not a speculative NFT project. It is an attempt to make the legitimate path more durable, more transparent, and more attractive than piracy.
 
 Context:
@@ -56,6 +60,7 @@ Context:
 - Releases title keys only after wallet signature and token ownership verification.
 - Lets publishers run fast cache servers without becoming the only point of access.
 - Gives players a verifiable local install flow instead of blind trust in a closed launcher.
+- Defines a path toward cross-platform library portability: one wallet address, many compatible platforms.
 
 This is not a promise of impossible DRM. Once software is decrypted on a hostile machine, it can be copied. Playkeep focuses on the serious, defensible model: encrypted public bytes, token-gated keys, auditable ownership, and future support for per-license watermarking.
 
@@ -70,6 +75,7 @@ We believe:
 - Publishers deserve piracy resistance, but players deserve sovereignty.
 - Open protocols beat private silos when the goal is trust.
 - Digital ownership should be transferable, inspectable, recoverable, and boringly reliable.
+- A compatible platform should be able to install what a player owns, but never erase the ownership itself.
 
 Playkeep exists to make the honest path better than the pirate path: easier to verify, easier to preserve, easier to resell, and easier to trust.
 

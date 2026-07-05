@@ -63,7 +63,8 @@ const t = {
     whyPoints: [
       "Physical media is disappearing, and many players do not want access to their libraries to depend entirely on private stores.",
       "Campaigns such as Stop Killing Games show the same concern in another form: when official support ends, a purchased game should not be destroyed without a reasonable path forward.",
-      "Playkeep gives publishers a practical way to support preservation, ownership portability, and piracy resistance at the same time."
+      "Playkeep gives publishers a practical way to support preservation, ownership portability, and piracy resistance at the same time.",
+      "The ambition is to become a distribution standard: one wallet address, many consoles and stores, with every compatible platform able to verify the player's library and install the games they own."
     ],
     whyLinks: [
       ["Players push back against losing discs", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -90,7 +91,8 @@ const t = {
       "Buying a game should mean durable access.",
       "Preservation belongs in distribution from day one.",
       "Publishers deserve piracy resistance.",
-      "Players deserve sovereignty."
+      "Players deserve sovereignty.",
+      "A compatible platform should never be able to erase a valid license from a player's wallet."
     ],
     readKicker: "Read more",
     readTitle: "Built in the open.",
@@ -146,7 +148,8 @@ const t = {
     whyPoints: [
       "Il supporto fisico sta scomparendo, e molti giocatori non vogliono che l'accesso alla propria libreria dipenda solo da store privati.",
       "Campagne come Stop Killing Games mostrano lo stesso problema da un'altra prospettiva: quando finisce il supporto ufficiale, un gioco acquistato non dovrebbe essere distrutto senza alternative ragionevoli.",
-      "Playkeep offre ai publisher un modo concreto per sostenere preservazione, portabilità della proprietà e resistenza alla pirateria insieme."
+      "Playkeep offre ai publisher un modo concreto per sostenere preservazione, portabilità della proprietà e resistenza alla pirateria insieme.",
+      "L'ambizione è diventare uno standard di distribuzione: un solo wallet address, molte console e store, con ogni piattaforma compatibile capace di verificare la libreria del giocatore e installare i giochi che possiede."
     ],
     whyLinks: [
       ["I giocatori reagiscono all'addio ai dischi", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -173,7 +176,8 @@ const t = {
       "Comprare un gioco dovrebbe significare accesso duraturo.",
       "La preservazione va progettata nella distribuzione fin dal primo giorno.",
       "I publisher meritano resistenza alla pirateria.",
-      "I giocatori meritano sovranità."
+      "I giocatori meritano sovranità.",
+      "Una piattaforma compatibile non dovrebbe mai poter cancellare una licenza valida dal wallet di un giocatore."
     ],
     readKicker: "Approfondisci",
     readTitle: "Costruito in pubblico.",
@@ -229,7 +233,8 @@ const t = {
     whyPoints: [
       "Le support physique disparaît, et beaucoup de joueurs ne veulent pas que l'accès à leur bibliothèque dépende entièrement de boutiques privées.",
       "Des campagnes comme Stop Killing Games montrent le même enjeu autrement : quand le support officiel s'arrête, un jeu acheté ne devrait pas être détruit sans solution raisonnable.",
-      "Playkeep donne aux éditeurs une voie concrète pour soutenir préservation, portabilité de la propriété et résistance au piratage."
+      "Playkeep donne aux éditeurs une voie concrète pour soutenir préservation, portabilité de la propriété et résistance au piratage.",
+      "L'ambition est de devenir un standard de distribution : une seule adresse wallet, plusieurs consoles et boutiques, et chaque plateforme compatible capable de vérifier la bibliothèque du joueur et d'installer les jeux qu'il possède."
     ],
     whyLinks: [
       ["Les joueurs réagissent à la disparition des disques", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -256,7 +261,8 @@ const t = {
       "Acheter un jeu devrait signifier un accès durable.",
       "La préservation doit être conçue dans la distribution dès le premier jour.",
       "Les éditeurs méritent une résistance au piratage.",
-      "Les joueurs méritent la souveraineté."
+      "Les joueurs méritent la souveraineté.",
+      "Une plateforme compatible ne devrait jamais pouvoir effacer une licence valide du wallet d'un joueur."
     ],
     readKicker: "En savoir plus",
     readTitle: "Construit ouvertement.",
@@ -312,7 +318,8 @@ const t = {
     whyPoints: [
       "Physische Medien verschwinden, und viele Spieler wollen nicht, dass der Zugang zu ihrer Bibliothek vollständig von privaten Stores abhängt.",
       "Kampagnen wie Stop Killing Games zeigen dieselbe Sorge aus einer anderen Richtung: Wenn offizieller Support endet, sollte ein gekauftes Spiel nicht ohne vernünftige Alternative zerstört werden.",
-      "Playkeep gibt Publishern einen praktischen Weg, Erhaltung, Portabilität von Eigentum und Piraterieresistenz gemeinsam zu unterstützen."
+      "Playkeep gibt Publishern einen praktischen Weg, Erhaltung, Portabilität von Eigentum und Piraterieresistenz gemeinsam zu unterstützen.",
+      "Die Ambition ist ein Distributionsstandard: eine Wallet-Adresse, viele Konsolen und Stores, und jede kompatible Plattform kann die Bibliothek des Spielers prüfen und die gekauften Spiele installieren."
     ],
     whyLinks: [
       ["Spieler wehren sich gegen das Ende der Discs", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -339,7 +346,8 @@ const t = {
       "Ein Spiel zu kaufen sollte dauerhaften Zugriff bedeuten.",
       "Erhaltung gehört vom ersten Tag an in die Distribution.",
       "Publisher verdienen Schutz vor Piraterie.",
-      "Spieler verdienen Souveränität."
+      "Spieler verdienen Souveränität.",
+      "Eine kompatible Plattform sollte niemals eine gültige Lizenz aus der Wallet eines Spielers löschen können."
     ],
     readKicker: "Mehr lesen",
     readTitle: "Offen gebaut.",
@@ -395,7 +403,8 @@ const t = {
     whyPoints: [
       "El soporte físico está desapareciendo, y muchos jugadores no quieren que el acceso a su biblioteca dependa por completo de tiendas privadas.",
       "Campañas como Stop Killing Games muestran la misma preocupación desde otro ángulo: cuando termina el soporte oficial, un juego comprado no debería destruirse sin una alternativa razonable.",
-      "Playkeep ofrece a los publishers una forma práctica de apoyar preservación, portabilidad de la propiedad y resistencia a la piratería al mismo tiempo."
+      "Playkeep ofrece a los publishers una forma práctica de apoyar preservación, portabilidad de la propiedad y resistencia a la piratería al mismo tiempo.",
+      "La ambición es convertirse en un estándar de distribución: una dirección wallet, muchas consolas y tiendas, y cada plataforma compatible capaz de verificar la biblioteca del jugador e instalar los juegos que posee."
     ],
     whyLinks: [
       ["Los jugadores reaccionan al adiós a los discos", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -422,7 +431,8 @@ const t = {
       "Comprar un juego debería significar acceso duradero.",
       "La preservación debe diseñarse en la distribución desde el primer día.",
       "Los publishers merecen resistencia a la piratería.",
-      "Los jugadores merecen soberanía."
+      "Los jugadores merecen soberanía.",
+      "Una plataforma compatible nunca debería poder borrar una licencia válida del wallet de un jugador."
     ],
     readKicker: "Leer más",
     readTitle: "Construido en abierto.",
@@ -478,7 +488,8 @@ const t = {
     whyPoints: [
       "Физические носители исчезают, и многие игроки не хотят, чтобы доступ к их библиотеке полностью зависел от частных магазинов.",
       "Кампании вроде Stop Killing Games показывают ту же тревогу с другой стороны: когда официальная поддержка заканчивается, купленная игра не должна исчезать без разумной альтернативы.",
-      "Playkeep дает издателям практический способ одновременно поддержать сохранение, переносимость владения и защиту от пиратства."
+      "Playkeep дает издателям практический способ одновременно поддержать сохранение, переносимость владения и защиту от пиратства.",
+      "Амбиция Playkeep — стать стандартом распространения: один адрес кошелька, множество консолей и магазинов, а каждая совместимая платформа может проверить библиотеку игрока и установить принадлежащие ему игры."
     ],
     whyLinks: [
       ["Игроки выступают против отказа от дисков", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -505,7 +516,8 @@ const t = {
       "Покупка игры должна означать долговечный доступ.",
       "Сохранение должно быть встроено в дистрибуцию с первого дня.",
       "Издатели заслуживают защиты от пиратства.",
-      "Игроки заслуживают суверенитета."
+      "Игроки заслуживают суверенитета.",
+      "Совместимая платформа никогда не должна иметь возможность стереть действительную лицензию из кошелька игрока."
     ],
     readKicker: "Подробнее",
     readTitle: "Создается открыто.",
@@ -561,7 +573,8 @@ const t = {
     whyPoints: [
       "实体媒介正在消失，许多玩家不希望自己的游戏库访问权完全依赖私人商店。",
       "Stop Killing Games 等运动从另一角度提出同样的问题：官方支持结束时，已购买的游戏不应在没有合理替代方案的情况下被毁掉。",
-      "Playkeep 为发行商提供一种实际路径，同时支持保存、所有权可迁移和反盗版。"
+      "Playkeep 为发行商提供一种实际路径，同时支持保存、所有权可迁移和反盗版。",
+      "Playkeep 的目标是成为一种发行标准：一个钱包地址，适用于多台主机和商店；任何兼容平台都能验证玩家的游戏库，并安装其拥有的游戏。"
     ],
     whyLinks: [
       ["玩家反对游戏光盘消失", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -588,7 +601,8 @@ const t = {
       "购买游戏应意味着持久访问。",
       "保存能力应从分发的第一天就被设计进去。",
       "发行商值得拥有反盗版能力。",
-      "玩家也值得拥有主权。"
+      "玩家也值得拥有主权。",
+      "兼容平台不应能够从玩家钱包中抹去有效许可证。"
     ],
     readKicker: "继续了解",
     readTitle: "开放构建。",
@@ -644,7 +658,8 @@ const t = {
     whyPoints: [
       "物理メディアは消えつつあり、多くのプレイヤーは自分のライブラリへのアクセスを私有ストアだけに依存させたくありません。",
       "Stop Killing Games のような運動は同じ懸念を別の形で示しています。公式サポートが終わっても、購入済みのゲームは合理的な代替策なしに失われるべきではありません。",
-      "Playkeep は、保存、所有権のポータビリティ、海賊版対策を同時に支える実用的な道をパブリッシャーに提供します。"
+      "Playkeep は、保存、所有権のポータビリティ、海賊版対策を同時に支える実用的な道をパブリッシャーに提供します。",
+      "目標は配信標準になることです。1つのウォレットアドレスで複数のコンソールやストアにログインし、対応プラットフォームがプレイヤーのライブラリを検証して所有するゲームをインストールできる世界です。"
     ],
     whyLinks: [
       ["ディスク廃止に反発するプレイヤー", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
@@ -671,7 +686,8 @@ const t = {
       "ゲームの購入は永続的なアクセスを意味するべきです。",
       "保存は配布の初日から設計されるべきです。",
       "パブリッシャーには海賊版対策が必要です。",
-      "プレイヤーには主権が必要です。"
+      "プレイヤーには主権が必要です。",
+      "対応プラットフォームは、プレイヤーのウォレットから有効なライセンスを消すことができてはなりません。"
     ],
     readKicker: "さらに読む",
     readTitle: "オープンに構築中。",
