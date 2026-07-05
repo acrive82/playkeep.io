@@ -7,6 +7,7 @@
 <p align="center">
   <a href="#quick-start">Quick Start</a> ·
   <a href="#docker-demo">Docker Demo</a> ·
+  <a href="#why-now">Why Now</a> ·
   <a href="#manifesto">Manifesto</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#security-model">Security</a>
@@ -24,6 +25,29 @@
 Playkeep is an open protocol prototype for sovereign digital game ownership.
 
 The idea is simple: a player should not lose access to a game just because a launcher shuts down, a publisher delists a title, or a server-side store decides history is inconvenient. Playkeep separates the right to access a game from the server that happens to deliver it today.
+
+## Why Now
+
+Playkeep is for players first.
+
+Players are pushing back against a future where buying a game can become a temporary permission. Physical media is being phased out, stores and launchers are becoming the only practical access path, and entire communities are asking what rights remain when a purchased game can be switched off.
+
+That is the same concern behind movements such as Stop Killing Games: companies should not be forced to operate live services forever, but a sold game should not become completely unusable without a reasonable preservation path.
+
+Playkeep is the technical bridge we want publishers to adopt:
+
+- encrypted public packages that can be mirrored without exposing the game;
+- wallet-held licenses that survive a single private store database;
+- token-gated key release so access is still authorization-based;
+- publisher cache servers for speed, without making them the only source of truth;
+- a path toward durable installs, resale, recovery, and preservation.
+
+This is not a speculative NFT project. It is an attempt to make the legitimate path more durable, more transparent, and more attractive than piracy.
+
+Context:
+
+- [Players push back against losing physical discs](https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html)
+- [Stop Killing Games and the future of videogames](https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/)
 
 ## What It Does
 

@@ -31,7 +31,7 @@ const t = {
     description:
       "Playkeep is an open protocol prototype for encrypted game distribution, token-gated access, and resilient digital ownership.",
     og: "Own the license. Mirror the bytes. Keep the game.",
-    nav: ["Protocol", "Flow", "Demo", "Manifesto", "GitHub"],
+    nav: ["Protocol", "Players", "Flow", "Demo", "Manifesto", "GitHub"],
     eyebrow: "Open protocol prototype",
     h1: "Own the license. Mirror the bytes. Keep the game.",
     hero:
@@ -55,6 +55,19 @@ const t = {
         "Token-gated keys",
         "A gatekeeper verifies wallet signatures and token ownership, then wraps the title key to the player's ephemeral device key."
       ]
+    ],
+    whyKicker: "Why now",
+    whyTitle: "This is for players first.",
+    whyLead:
+      "Playkeep exists because players are pushing back against a future where purchases can become temporary permissions. The project is a technical answer to a cultural and consumer-rights problem.",
+    whyPoints: [
+      "Physical media is disappearing, and many players do not want access to their libraries to depend entirely on private stores.",
+      "Campaigns such as Stop Killing Games show the same concern in another form: when official support ends, a purchased game should not be destroyed without a reasonable path forward.",
+      "Playkeep gives publishers a practical way to support preservation, ownership portability, and piracy resistance at the same time."
+    ],
+    whyLinks: [
+      ["Players push back against losing discs", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games and the future of games", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "The flow",
     flowTitle: "No clear game package is published.",
@@ -101,7 +114,7 @@ const t = {
     description:
       "Playkeep è un prototipo di protocollo aperto per distribuire giochi cifrati, accesso legato a token e proprietà digitale resiliente.",
     og: "Possiedi la licenza. Replica i byte. Conserva il gioco.",
-    nav: ["Protocollo", "Flusso", "Demo", "Manifesto", "GitHub"],
+    nav: ["Protocollo", "Giocatori", "Flusso", "Demo", "Manifesto", "GitHub"],
     eyebrow: "Prototipo di protocollo aperto",
     h1: "Possiedi la licenza. Replica i byte. Conserva il gioco.",
     hero:
@@ -125,6 +138,19 @@ const t = {
         "Chiavi legate al token",
         "Il gatekeeper verifica firma del wallet e proprietà del token, poi incapsula la chiave del titolo sulla chiave effimera del dispositivo."
       ]
+    ],
+    whyKicker: "Perché ora",
+    whyTitle: "Questo progetto nasce prima di tutto per i giocatori.",
+    whyLead:
+      "Playkeep esiste perché i giocatori stanno reagendo a un futuro in cui un acquisto rischia di diventare un permesso temporaneo. È una risposta tecnica a un problema culturale e di tutela del consumatore.",
+    whyPoints: [
+      "Il supporto fisico sta scomparendo, e molti giocatori non vogliono che l'accesso alla propria libreria dipenda solo da store privati.",
+      "Campagne come Stop Killing Games mostrano lo stesso problema da un'altra prospettiva: quando finisce il supporto ufficiale, un gioco acquistato non dovrebbe essere distrutto senza alternative ragionevoli.",
+      "Playkeep offre ai publisher un modo concreto per sostenere preservazione, portabilità della proprietà e resistenza alla pirateria insieme."
+    ],
+    whyLinks: [
+      ["I giocatori reagiscono all'addio ai dischi", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games e il futuro dei videogiochi", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "Il flusso",
     flowTitle: "Nessun pacchetto di gioco in chiaro viene pubblicato.",
@@ -171,7 +197,7 @@ const t = {
     description:
       "Playkeep est un prototype de protocole ouvert pour la distribution chiffrée de jeux, l'accès contrôlé par token et la propriété numérique résiliente.",
     og: "Possédez la licence. Dupliquez les octets. Gardez le jeu.",
-    nav: ["Protocole", "Flux", "Démo", "Manifeste", "GitHub"],
+    nav: ["Protocole", "Joueurs", "Flux", "Démo", "Manifeste", "GitHub"],
     eyebrow: "Prototype de protocole ouvert",
     h1: "Possédez la licence. Dupliquez les octets. Gardez le jeu.",
     hero:
@@ -195,6 +221,19 @@ const t = {
         "Clés contrôlées par token",
         "Le gatekeeper vérifie la signature du wallet et la possession du token, puis enveloppe la clé du titre pour la clé éphémère du dispositif."
       ]
+    ],
+    whyKicker: "Pourquoi maintenant",
+    whyTitle: "Ce projet existe d'abord pour les joueurs.",
+    whyLead:
+      "Playkeep existe parce que les joueurs refusent un futur où un achat peut devenir une simple permission temporaire. C'est une réponse technique à un problème culturel et de droits des consommateurs.",
+    whyPoints: [
+      "Le support physique disparaît, et beaucoup de joueurs ne veulent pas que l'accès à leur bibliothèque dépende entièrement de boutiques privées.",
+      "Des campagnes comme Stop Killing Games montrent le même enjeu autrement : quand le support officiel s'arrête, un jeu acheté ne devrait pas être détruit sans solution raisonnable.",
+      "Playkeep donne aux éditeurs une voie concrète pour soutenir préservation, portabilité de la propriété et résistance au piratage."
+    ],
+    whyLinks: [
+      ["Les joueurs réagissent à la disparition des disques", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games et le futur du jeu vidéo", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "Le flux",
     flowTitle: "Aucun paquet de jeu en clair n'est publié.",
@@ -241,7 +280,7 @@ const t = {
     description:
       "Playkeep ist ein offener Protokollprototyp für verschlüsselte Spieleverteilung, token-gesteuerten Zugriff und resilientes digitales Eigentum.",
     og: "Besitze die Lizenz. Spiegele die Bytes. Behalte das Spiel.",
-    nav: ["Protokoll", "Ablauf", "Demo", "Manifest", "GitHub"],
+    nav: ["Protokoll", "Spieler", "Ablauf", "Demo", "Manifest", "GitHub"],
     eyebrow: "Offener Protokollprototyp",
     h1: "Besitze die Lizenz. Spiegele die Bytes. Behalte das Spiel.",
     hero:
@@ -265,6 +304,19 @@ const t = {
         "Token-gesteuerte Schlüssel",
         "Der Gatekeeper prüft Wallet-Signaturen und Tokenbesitz und verpackt dann den Titelschlüssel für den ephemeren Geräteschlüssel."
       ]
+    ],
+    whyKicker: "Warum jetzt",
+    whyTitle: "Dieses Projekt ist zuerst für Spieler da.",
+    whyLead:
+      "Playkeep existiert, weil Spieler sich gegen eine Zukunft wehren, in der ein Kauf zu einer vorübergehenden Erlaubnis werden kann. Es ist eine technische Antwort auf ein kulturelles und verbraucherrechtliches Problem.",
+    whyPoints: [
+      "Physische Medien verschwinden, und viele Spieler wollen nicht, dass der Zugang zu ihrer Bibliothek vollständig von privaten Stores abhängt.",
+      "Kampagnen wie Stop Killing Games zeigen dieselbe Sorge aus einer anderen Richtung: Wenn offizieller Support endet, sollte ein gekauftes Spiel nicht ohne vernünftige Alternative zerstört werden.",
+      "Playkeep gibt Publishern einen praktischen Weg, Erhaltung, Portabilität von Eigentum und Piraterieresistenz gemeinsam zu unterstützen."
+    ],
+    whyLinks: [
+      ["Spieler wehren sich gegen das Ende der Discs", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games und die Zukunft der Spiele", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "Der Ablauf",
     flowTitle: "Kein Spielpaket wird im Klartext veröffentlicht.",
@@ -311,7 +363,7 @@ const t = {
     description:
       "Playkeep es un prototipo de protocolo abierto para distribución cifrada de juegos, acceso controlado por token y propiedad digital resiliente.",
     og: "Posee la licencia. Replica los bytes. Conserva el juego.",
-    nav: ["Protocolo", "Flujo", "Demo", "Manifiesto", "GitHub"],
+    nav: ["Protocolo", "Jugadores", "Flujo", "Demo", "Manifiesto", "GitHub"],
     eyebrow: "Prototipo de protocolo abierto",
     h1: "Posee la licencia. Replica los bytes. Conserva el juego.",
     hero:
@@ -335,6 +387,19 @@ const t = {
         "Claves ligadas al token",
         "El gatekeeper verifica firmas de wallet y propiedad del token, y después envuelve la clave del título para la clave efímera del dispositivo."
       ]
+    ],
+    whyKicker: "Por qué ahora",
+    whyTitle: "Este proyecto existe primero para los jugadores.",
+    whyLead:
+      "Playkeep existe porque los jugadores están rechazando un futuro en el que una compra puede convertirse en un permiso temporal. Es una respuesta técnica a un problema cultural y de derechos del consumidor.",
+    whyPoints: [
+      "El soporte físico está desapareciendo, y muchos jugadores no quieren que el acceso a su biblioteca dependa por completo de tiendas privadas.",
+      "Campañas como Stop Killing Games muestran la misma preocupación desde otro ángulo: cuando termina el soporte oficial, un juego comprado no debería destruirse sin una alternativa razonable.",
+      "Playkeep ofrece a los publishers una forma práctica de apoyar preservación, portabilidad de la propiedad y resistencia a la piratería al mismo tiempo."
+    ],
+    whyLinks: [
+      ["Los jugadores reaccionan al adiós a los discos", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games y el futuro de los videojuegos", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "El flujo",
     flowTitle: "No se publica ningún paquete de juego en claro.",
@@ -381,7 +446,7 @@ const t = {
     description:
       "Playkeep — прототип открытого протокола для зашифрованной доставки игр, доступа по токену и устойчивого цифрового владения.",
     og: "Владейте лицензией. Зеркальте байты. Сохраняйте игру.",
-    nav: ["Протокол", "Поток", "Демо", "Манифест", "GitHub"],
+    nav: ["Протокол", "Игроки", "Поток", "Демо", "Манифест", "GitHub"],
     eyebrow: "Прототип открытого протокола",
     h1: "Владейте лицензией. Зеркальте байты. Сохраняйте игру.",
     hero:
@@ -405,6 +470,19 @@ const t = {
         "Ключи по токену",
         "Gatekeeper проверяет подпись кошелька и владение токеном, затем оборачивает ключ игры для эфемерного ключа устройства."
       ]
+    ],
+    whyKicker: "Почему сейчас",
+    whyTitle: "Этот проект в первую очередь для игроков.",
+    whyLead:
+      "Playkeep существует потому, что игроки не хотят будущего, где покупка превращается во временное разрешение. Это технический ответ на культурную проблему и проблему прав потребителей.",
+    whyPoints: [
+      "Физические носители исчезают, и многие игроки не хотят, чтобы доступ к их библиотеке полностью зависел от частных магазинов.",
+      "Кампании вроде Stop Killing Games показывают ту же тревогу с другой стороны: когда официальная поддержка заканчивается, купленная игра не должна исчезать без разумной альтернативы.",
+      "Playkeep дает издателям практический способ одновременно поддержать сохранение, переносимость владения и защиту от пиратства."
+    ],
+    whyLinks: [
+      ["Игроки выступают против отказа от дисков", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games и будущее игр", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "Поток",
     flowTitle: "Пакет игры в открытом виде не публикуется.",
@@ -451,7 +529,7 @@ const t = {
     description:
       "Playkeep 是一个开放协议原型，用于加密游戏分发、基于代币的访问控制和更有韧性的数字所有权。",
     og: "拥有许可证。镜像字节。保留游戏。",
-    nav: ["协议", "流程", "演示", "宣言", "GitHub"],
+    nav: ["协议", "玩家", "流程", "演示", "宣言", "GitHub"],
     eyebrow: "开放协议原型",
     h1: "拥有许可证。镜像字节。保留游戏。",
     hero:
@@ -475,6 +553,19 @@ const t = {
         "代币门控密钥",
         "Gatekeeper 验证钱包签名和代币所有权，然后把游戏密钥包装给玩家设备的临时公钥。"
       ]
+    ],
+    whyKicker: "为什么是现在",
+    whyTitle: "这个项目首先是为了玩家。",
+    whyLead:
+      "Playkeep 的存在，是因为玩家正在反对一种未来：所谓购买可能只是临时许可。它是对文化问题和消费者权益问题的技术回应。",
+    whyPoints: [
+      "实体媒介正在消失，许多玩家不希望自己的游戏库访问权完全依赖私人商店。",
+      "Stop Killing Games 等运动从另一角度提出同样的问题：官方支持结束时，已购买的游戏不应在没有合理替代方案的情况下被毁掉。",
+      "Playkeep 为发行商提供一种实际路径，同时支持保存、所有权可迁移和反盗版。"
+    ],
+    whyLinks: [
+      ["玩家反对游戏光盘消失", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games 与游戏的未来", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "流程",
     flowTitle: "不会发布明文游戏包。",
@@ -521,7 +612,7 @@ const t = {
     description:
       "Playkeep は、暗号化されたゲーム配布、トークンによるアクセス制御、回復力のあるデジタル所有権のためのオープンプロトコル試作です。",
     og: "ライセンスを所有する。バイトを複製する。ゲームを残す。",
-    nav: ["プロトコル", "フロー", "デモ", "マニフェスト", "GitHub"],
+    nav: ["プロトコル", "プレイヤー", "フロー", "デモ", "マニフェスト", "GitHub"],
     eyebrow: "オープンプロトコル試作",
     h1: "ライセンスを所有する。バイトを複製する。ゲームを残す。",
     hero:
@@ -545,6 +636,19 @@ const t = {
         "トークンゲート鍵",
         "Gatekeeper はウォレット署名とトークン所有を検証し、タイトル鍵をプレイヤー端末の一時鍵にラップします。"
       ]
+    ],
+    whyKicker: "なぜ今なのか",
+    whyTitle: "このプロジェクトはまずプレイヤーのためにあります。",
+    whyLead:
+      "Playkeep は、購入が一時的な許可になってしまう未来にプレイヤーが反発しているからこそ存在します。これは文化と消費者保護の問題への技術的な答えです。",
+    whyPoints: [
+      "物理メディアは消えつつあり、多くのプレイヤーは自分のライブラリへのアクセスを私有ストアだけに依存させたくありません。",
+      "Stop Killing Games のような運動は同じ懸念を別の形で示しています。公式サポートが終わっても、購入済みのゲームは合理的な代替策なしに失われるべきではありません。",
+      "Playkeep は、保存、所有権のポータビリティ、海賊版対策を同時に支える実用的な道をパブリッシャーに提供します。"
+    ],
+    whyLinks: [
+      ["ディスク廃止に反発するプレイヤー", "https://www.everyeye.it/notizie/giocatori-non-vogliono-addio-dischi-petizione-sony-playstation-888162.html"],
+      ["Stop Killing Games とゲームの未来", "https://www.orizzontipolitici.it/stop-killing-games-cosa-ci-dice-la-petizione-europea-sul-futuro-dei-videogiochi/"]
     ],
     flowKicker: "フロー",
     flowTitle: "平文のゲームパッケージは公開されません。",
@@ -649,10 +753,11 @@ function render(locale, copy) {
           </a>
           <div class="nav-links">
             <a href="#protocol">${escapeHtml(copy.nav[0])}</a>
-            <a href="#flow">${escapeHtml(copy.nav[1])}</a>
-            <a href="#demo">${escapeHtml(copy.nav[2])}</a>
-            <a href="#manifesto">${escapeHtml(copy.nav[3])}</a>
-            <a class="github-link" href="${shared.repo}">${escapeHtml(copy.nav[4])}</a>
+            <a href="#players">${escapeHtml(copy.nav[1])}</a>
+            <a href="#flow">${escapeHtml(copy.nav[2])}</a>
+            <a href="#demo">${escapeHtml(copy.nav[3])}</a>
+            <a href="#manifesto">${escapeHtml(copy.nav[4])}</a>
+            <a class="github-link" href="${shared.repo}">${escapeHtml(copy.nav[5])}</a>
           </div>
           <div class="language-picker">
             <label class="sr-only" for="language-select">${escapeHtml(copy.ariaLang)}</label>
@@ -699,7 +804,35 @@ function render(locale, copy) {
           </div>
         </section>
 
-        <section class="section alt" id="flow">
+        <section class="section alt player-context" id="players">
+          <div class="inner manifest">
+            <div>
+              <p class="section-kicker">${escapeHtml(copy.whyKicker)}</p>
+              <h2>${escapeHtml(copy.whyTitle)}</h2>
+              <p class="lead">${escapeHtml(copy.whyLead)}</p>
+              <div class="context-links">
+                ${copy.whyLinks
+                  .map(
+                    ([label, href]) =>
+                      `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`
+                  )
+                  .join("\n                ")}
+              </div>
+            </div>
+            <div class="context-list">
+              ${copy.whyPoints
+                .map(
+                  (item, index) => `<div class="context-item">
+                <span>${String(index + 1).padStart(2, "0")}</span>
+                <p>${escapeHtml(item)}</p>
+              </div>`
+                )
+                .join("\n              ")}
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="flow">
           <div class="inner">
             <div class="section-head">
               <p class="section-kicker">${escapeHtml(copy.flowKicker)}</p>
@@ -718,7 +851,7 @@ function render(locale, copy) {
           </div>
         </section>
 
-        <section class="section" id="demo">
+        <section class="section alt" id="demo">
           <div class="inner manifest">
             <div>
               <p class="section-kicker">${escapeHtml(copy.demoKicker)}</p>
@@ -740,7 +873,7 @@ Hello PlayKeep.io</code></pre>
           </div>
         </section>
 
-        <section class="section alt" id="manifesto">
+        <section class="section" id="manifesto">
           <div class="inner">
             <div class="section-head">
               <p class="section-kicker">${escapeHtml(copy.manifestoKicker)}</p>
