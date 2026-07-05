@@ -1,0 +1,17 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+**/coverage/
+cache/
+**/cache/
+artifacts/
+**/artifacts/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+.playkeep/
+**/.playkeep/

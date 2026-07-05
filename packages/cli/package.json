@@ -1,0 +1,26 @@
+{
+  "name": "@playkeep/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "playkeep": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "playkeep": "tsx src/index.ts",
+    "test": "pnpm test:integration",
+    "test:integration": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@playkeep/sdk": "workspace:*",
+    "commander": "^12.1.0",
+    "ethers": "^6.15.0",
+    "tar": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/tar": "^6.1.13",
+    "vitest": "^3.2.4"
+  }
+}

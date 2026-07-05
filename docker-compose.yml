@@ -1,0 +1,41 @@
+services:
+  demo-prepare:
+    build: .
+    command: pnpm demo:prepare
+    volumes:
+      - playkeep-demo:/workspace/.playkeep
+
+  gatekeeper:
+    build: .
+    depends_on:
+      demo-prepare:
+        condition: service_completed_successfully
+    environment:
+      PLAYKEEP_PORT: 8787
+      PLAYKEEP_CHAIN_ID: 31337
+      PLAYKEEP_KEYRING_PATH: /workspace/.playkeep/keyring.json
+      PLAYKEEP_MOCK_OWNERSHIP_PATH: /workspace/.playkeep/mock-ownership.json
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8787/health').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 2s
+      timeout: 2s
+      retries: 20
+    ports:
+      - "8787:8787"
+    volumes:
+      - playkeep-demo:/workspace/.playkeep
+
+  demo-install:
+    build: .
+    command: pnpm demo:install
+    depends_on:
+      gatekeeper:
+        condition: service_healthy
+    environment:
+      PLAYKEEP_GATEKEEPER_URL: http://gatekeeper:8787
+    volumes:
+      - playkeep-demo:/workspace/.playkeep
+
+volumes:
+  playkeep-demo:
+

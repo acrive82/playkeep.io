@@ -1,0 +1,20 @@
+{
+  "name": "@playkeep/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "pnpm test:unit",
+    "test:unit": "hardhat test",
+    "typecheck": "echo contracts use Solidity"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.5.0",
+    "hardhat": "^2.26.1"
+  }
+}
